@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E7D441538B4380C2917CF28 /* libPods-WTImageClipping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A64F6A50572F3FEBA763EE /* libPods-WTImageClipping.a */; };
+		4997E68C214BEAC400F61B8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997E68B214BEAC400F61B8A /* AppDelegate.m */; };
+		4997E68F214BEAC400F61B8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997E68E214BEAC400F61B8A /* ViewController.m */; };
+		4997E692214BEAC500F61B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4997E690214BEAC500F61B8A /* Main.storyboard */; };
+		4997E694214BEAC700F61B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4997E693214BEAC700F61B8A /* Assets.xcassets */; };
+		4997E697214BEAC700F61B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4997E695214BEAC700F61B8A /* LaunchScreen.storyboard */; };
+		4997E69A214BEAC700F61B8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997E699214BEAC700F61B8A /* main.m */; };
+		4997E6A8214CA2FC00F61B8A /* WTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997E6A7214CA2FC00F61B8A /* WTTableViewCell.m */; };
+		4997E6AE214CAD9600F61B8A /* UIImage+WTClipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997E6AC214CAD9600F61B8A /* UIImage+WTClipping.m */; };
+		4997E6AF214CAD9600F61B8A /* UIImageView+WTClipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997E6AD214CAD9600F61B8A /* UIImageView+WTClipping.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37C982638ACE46AFDEA025E6 /* Pods-WTImageClipping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTImageClipping.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTImageClipping/Pods-WTImageClipping.debug.xcconfig"; sourceTree = "<group>"; };
+		4484AA5E6E152EE499B5E447 /* Pods-WTImageClipping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTImageClipping.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTImageClipping/Pods-WTImageClipping.release.xcconfig"; sourceTree = "<group>"; };
+		4997E687214BEAC400F61B8A /* WTImageClipping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTImageClipping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4997E68A214BEAC400F61B8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4997E68B214BEAC400F61B8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4997E68D214BEAC400F61B8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4997E68E214BEAC400F61B8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4997E691214BEAC500F61B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4997E693214BEAC700F61B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4997E696214BEAC700F61B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4997E698214BEAC700F61B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4997E699214BEAC700F61B8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4997E6A6214CA2FC00F61B8A /* WTTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTTableViewCell.h; sourceTree = "<group>"; };
+		4997E6A7214CA2FC00F61B8A /* WTTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTTableViewCell.m; sourceTree = "<group>"; };
+		4997E6AA214CAD9600F61B8A /* UIImage+WTClipping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WTClipping.h"; sourceTree = "<group>"; };
+		4997E6AB214CAD9600F61B8A /* UIImageView+WTClipping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WTClipping.h"; sourceTree = "<group>"; };
+		4997E6AC214CAD9600F61B8A /* UIImage+WTClipping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WTClipping.m"; sourceTree = "<group>"; };
+		4997E6AD214CAD9600F61B8A /* UIImageView+WTClipping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WTClipping.m"; sourceTree = "<group>"; };
+		93A64F6A50572F3FEBA763EE /* libPods-WTImageClipping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WTImageClipping.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4997E684214BEAC400F61B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7D441538B4380C2917CF28 /* libPods-WTImageClipping.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4C19A64772E3DBBC944C0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37C982638ACE46AFDEA025E6 /* Pods-WTImageClipping.debug.xcconfig */,
+				4484AA5E6E152EE499B5E447 /* Pods-WTImageClipping.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4997E67E214BEAC400F61B8A = {
+			isa = PBXGroup;
+			children = (
+				4997E689214BEAC400F61B8A /* WTImageClipping */,
+				4997E688214BEAC400F61B8A /* Products */,
+				2C4C19A64772E3DBBC944C0E /* Pods */,
+				94A3AC6C15A6815301898385 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4997E688214BEAC400F61B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4997E687214BEAC400F61B8A /* WTImageClipping.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4997E689214BEAC400F61B8A /* WTImageClipping */ = {
+			isa = PBXGroup;
+			children = (
+				4997E6A9214CAD9600F61B8A /* Category */,
+				4997E68A214BEAC400F61B8A /* AppDelegate.h */,
+				4997E68B214BEAC400F61B8A /* AppDelegate.m */,
+				4997E68D214BEAC400F61B8A /* ViewController.h */,
+				4997E68E214BEAC400F61B8A /* ViewController.m */,
+				4997E6A6214CA2FC00F61B8A /* WTTableViewCell.h */,
+				4997E6A7214CA2FC00F61B8A /* WTTableViewCell.m */,
+				4997E690214BEAC500F61B8A /* Main.storyboard */,
+				4997E693214BEAC700F61B8A /* Assets.xcassets */,
+				4997E695214BEAC700F61B8A /* LaunchScreen.storyboard */,
+				4997E698214BEAC700F61B8A /* Info.plist */,
+				4997E699214BEAC700F61B8A /* main.m */,
+			);
+			path = WTImageClipping;
+			sourceTree = "<group>";
+		};
+		4997E6A9214CAD9600F61B8A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4997E6AA214CAD9600F61B8A /* UIImage+WTClipping.h */,
+				4997E6AC214CAD9600F61B8A /* UIImage+WTClipping.m */,
+				4997E6AB214CAD9600F61B8A /* UIImageView+WTClipping.h */,
+				4997E6AD214CAD9600F61B8A /* UIImageView+WTClipping.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		94A3AC6C15A6815301898385 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93A64F6A50572F3FEBA763EE /* libPods-WTImageClipping.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4997E686214BEAC400F61B8A /* WTImageClipping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4997E69D214BEAC700F61B8A /* Build configuration list for PBXNativeTarget "WTImageClipping" */;
+			buildPhases = (
+				8FB0F19002AF17EBBDA6EFAD /* [CP] Check Pods Manifest.lock */,
+				4997E683214BEAC400F61B8A /* Sources */,
+				4997E684214BEAC400F61B8A /* Frameworks */,
+				4997E685214BEAC400F61B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTImageClipping;
+			productName = WTImageClipping;
+			productReference = 4997E687214BEAC400F61B8A /* WTImageClipping.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4997E67F214BEAC400F61B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WT;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Weitac;
+				TargetAttributes = {
+					4997E686214BEAC400F61B8A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4997E682214BEAC400F61B8A /* Build configuration list for PBXProject "WTImageClipping" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4997E67E214BEAC400F61B8A;
+			productRefGroup = 4997E688214BEAC400F61B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4997E686214BEAC400F61B8A /* WTImageClipping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4997E685214BEAC400F61B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4997E697214BEAC700F61B8A /* LaunchScreen.storyboard in Resources */,
+				4997E694214BEAC700F61B8A /* Assets.xcassets in Resources */,
+				4997E692214BEAC500F61B8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FB0F19002AF17EBBDA6EFAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WTImageClipping-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4997E683214BEAC400F61B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4997E68F214BEAC400F61B8A /* ViewController.m in Sources */,
+				4997E6AF214CAD9600F61B8A /* UIImageView+WTClipping.m in Sources */,
+				4997E69A214BEAC700F61B8A /* main.m in Sources */,
+				4997E68C214BEAC400F61B8A /* AppDelegate.m in Sources */,
+				4997E6A8214CA2FC00F61B8A /* WTTableViewCell.m in Sources */,
+				4997E6AE214CAD9600F61B8A /* UIImage+WTClipping.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4997E690214BEAC500F61B8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4997E691214BEAC500F61B8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4997E695214BEAC700F61B8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4997E696214BEAC700F61B8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4997E69B214BEAC700F61B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4997E69C214BEAC700F61B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4997E69E214BEAC700F61B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C982638ACE46AFDEA025E6 /* Pods-WTImageClipping.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D68493PKL9;
+				INFOPLIST_FILE = WTImageClipping/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weitac.WTImageClipping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4997E69F214BEAC700F61B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4484AA5E6E152EE499B5E447 /* Pods-WTImageClipping.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D68493PKL9;
+				INFOPLIST_FILE = WTImageClipping/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weitac.WTImageClipping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4997E682214BEAC400F61B8A /* Build configuration list for PBXProject "WTImageClipping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4997E69B214BEAC700F61B8A /* Debug */,
+				4997E69C214BEAC700F61B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4997E69D214BEAC700F61B8A /* Build configuration list for PBXNativeTarget "WTImageClipping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4997E69E214BEAC700F61B8A /* Debug */,
+				4997E69F214BEAC700F61B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4997E67F214BEAC400F61B8A /* Project object */;
+}
